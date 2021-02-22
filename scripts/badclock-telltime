@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from badclock.lib import tell_time
+
+def main():
+    return tell_time()
+
+if __name__ == '__main__':
+    main()

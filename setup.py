@@ -13,5 +13,5 @@ setup(name='badclock',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/badclock-run'],
+      scripts=['scripts/badclock-run', 'scripts/badclock-telltime'],
       zip_safe=False)
